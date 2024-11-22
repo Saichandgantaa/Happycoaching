@@ -1,0 +1,241 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Kumbh Sans";
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    font-family: "Kumbh Sans", sans-serif;
+    flex-wrap: wrap;
+}
+.navbar .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vh;
+    margin-left: 3vw;
+    
+}
+.navbar .menu{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 5vh;
+   padding-right: 60px;
+}
+.navbar .menu .button1{
+    background-color: #20ad96;
+    border: none;
+    color: white;
+    padding: 1vh;
+    margin-top: 1vh;
+    border-radius: 3px;
+  
+}
+
+.hero{
+    /* width: 100vw; */
+    height: 95vh;
+    display: flex;
+    justify-content:space-around;
+    /* align-items: center; */
+    gap: 10vh;
+    background-color: #FAF8F6;
+    padding: 4vh  10vw 0vh;
+
+    
+}
+.hero .herotext{
+    display: flex;
+    justify-content:space-evenly ;
+    gap: 2vh;
+    flex-direction: column;
+    height: 35.2vh;
+    width: 42.5vw;
+    padding-top: 10vh;
+    font-family: "Kumbh Sans", sans-serif;
+    
+
+}
+.hero .heroimg{
+    display: flex;
+    /* margin-top: 60px; */
+    height:80.3vh;
+    width:50.2vw;
+    /* padding-left: 15vw; */
+    
+}
+.hero .herotext .herotxtp1{
+    /* height: 24px;
+    width: 400px; */
+    opacity: 40%;
+}
+.hero .herotext .herotxth1{
+    /* height: 258px;
+    width: 528px; */
+    font-size: 48px;
+    color: #333461;
+    font-weight: 800;
+    
+    
+    
+}
+.hero .herotext .herotxtp2{
+    /* height: 116px;
+    width: 545px; */
+    display: flex;
+    line-height: 1.8;
+    font-size: 18px;
+    color: #4A556C;
+    
+
+    /* padding-bottom: 250px; */
+}
+
+.textmiddile{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 800;
+    font-family: "Kumbh Sans";
+    color: #333461;
+    padding-top: 10vh;
+}
+.main{
+   height: 98.8vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 40px;
+ 
+ 
+}
+.main .mainsection1 .main1{
+    height: 44vh;
+    width: 27vw;
+    border: 1px solid #EDEFF5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 60px;
+    gap: 30px;
+    margin-bottom: 30px;
+
+}
+.main .mainsection1 .main1 h4{
+    color: #20AD96;
+    font-size: 24px;
+}
+.main .mainsection1 .main1 p{
+    font-size: 17px;
+    /* margin-top: 20px; */
+    line-height: 26px;
+    color: #4A556C;
+    
+}
+.main .mainsection1 .main2{
+    height: 44vh;
+    width: 27vw;
+    border: 1px solid #EDEFF5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 60px;
+    gap: 10px;
+   
+
+}
+.main .mainsection1 .main2 h4{
+    font-size: 24px;
+}
+.main .mainsection1 .main2 p{
+    font-size: 16px;
+    color: #4A556C;
+}
+.main .mainsection2 .main3{
+    height: 44vh;
+    width: 27vw;
+    border: 1px solid #EDEFF5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 60px;
+    gap: 30px;
+    margin-top: 15vh;
+   
+
+
+
+    
+}
+.main .mainsection2 .main3 h4{
+    font-size: 24px;
+}
+.main .mainsection2 .main3 p{
+    font-size: 16px;
+    color: #4A556C;
+}
+.main .mainsection2 .main4{
+    height: 44vh;
+    width: 27vw;
+    border: 1px solid #EDEFF5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 60px;
+    gap: 30px;
+   margin-top: 4vh;
+   
+  
+}
+.main .mainsection2 .main4 h4{
+    font-size: 24px;
+}
+.main .mainsection2 .main4 p{
+    font-size: 16px;
+    color: #4A556C;
+}
+.section{
+    display: flex;
+   padding: 15vh;
+}
+.section .sectiontxt{
+   height: 26.6vh;
+   width: 30vw;
+  
+   /* gap: 5vh; */
+}
+.section .sectiontxt .p1{
+    color:  #4A556C80;
+    
+}
+.section .sectiontxt .h1{
+    font-size: 48px;
+    color: #333461;
+    font-weight: 800;
+
+}
+.section .sectiontxt .p2{
+    font-size: 20px;
+    color: #4A556CB2;
+    line-height: 1.8;
+    
+}
+.divtext{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+.last .last1 .h3{
+    font-size: 90px;
+}

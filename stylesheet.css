@@ -535,6 +535,5 @@ color: #4A556C;
 .ficons{
     display: flex;
     justify-content: space-between;
-    gap: 1vw;
+    gap: 1vw;
 }
-
